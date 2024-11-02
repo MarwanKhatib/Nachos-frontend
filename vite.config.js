@@ -8,4 +8,5 @@ export default defineConfig({
     host: true,  // This allows Vite to listen on all network interfaces
     port: 5173,  // Ensure the port is set correctly
   },
+  base: '/nachos-frontend/', // Ensure this matches your repository name
 })
